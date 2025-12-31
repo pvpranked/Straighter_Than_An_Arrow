@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "straighter-than-an-arrow",
+	"version": "${version}",
+	"name": "Straighter Than An Arrow",
+	"description": "Removes the RNG from the angle the arrow comes out of bows and crossbows, and fixes a bug that makes arrows not place in the right spot sometimes after impacting a block.",
+	"authors": [
+		"Evil Overlord from PVP Ranked"
+	],
+	"contact": {
+		"homepage": "https://pvpranked.org"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/straighter-than-an-arrow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pvpranked.StraighterThanAnArrow"
+		],
+		"client": [
+			"com.pvpranked.StraighterThanAnArrowClient"
+		]
+	},
+	"mixins": [
+		"straighter-than-an-arrow.mixins.json",
+		{
+			"config": "straighter-than-an-arrow.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.9",
+		"java": ">=21"
+	}
+}

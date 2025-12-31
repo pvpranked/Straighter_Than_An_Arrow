@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.pvpranked.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArrowCollisionMathFixMixin",
+    "NoBowArrowFireAngleDivergenceMixin",
+    "NoCrossbowArrowFireAngleDivergenceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
