@@ -3,7 +3,7 @@
 	"id": "straighter-than-an-arrow",
 	"version": "${version}",
 	"name": "Straighter Than An Arrow",
-	"description": "Removes the RNG from the angle the arrow comes out of bows and crossbows, and fixes a bug that makes arrows not place in the right spot sometimes after impacting a block.",
+	"description": "Removes random spread from arrows fired by bows and crossbows, and fixes a bug where arrows sometimes embed in incorrect positions after hitting blocks.",
 	"authors": [
 		"Evil Overlord from PVP Ranked"
 	],
