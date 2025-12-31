@@ -8,7 +8,8 @@
 		"Evil Overlord from PVP Ranked"
 	],
 	"contact": {
-		"homepage": "https://pvpranked.org"
+		"homepage": "https://pvpranked.org",
+		"sources": "https://github.com/pvpranked/Straighter_Than_An_Arrow"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/straighter-than-an-arrow/icon.png",
