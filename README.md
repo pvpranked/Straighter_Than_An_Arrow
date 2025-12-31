@@ -24,3 +24,5 @@ If you do not have a github account, then you may also report an issue by
 1. Checking the github issues tab to make sure the issue is not already there
 2. Joining the discord for my main project [PVP Ranked](https://modrinth.com/mod/pvpranked) at [https://discord.gg/gvXYZvBcke](https://discord.gg/gvXYZvBcke) and opening a ticket to describe the issue. Make sure to ping @pvpranked, feel free to screenshot this text giving you permission to ping him.
 3. Make sure to provide a lot of details on how I should go about getting the issue to occur again, but in my own world.
+
+LICENSE: CC0 1.0 Universal It means you can use it for anything, anytime, anywhere, without restriction. Credit is appreciated, but not at all required.
